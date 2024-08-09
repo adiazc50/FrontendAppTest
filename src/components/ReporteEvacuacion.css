@@ -1,0 +1,23 @@
+.ReporteEvacuacion {
+    text-align: center;
+    padding: 20px;
+    background-color: #282c34;
+    color: white;
+  }
+  
+  .ReporteEvacuacion-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+  }
+  
+  .ReporteEvacuacion-table th, .ReporteEvacuacion-table td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: left;
+  }
+  
+  .ReporteEvacuacion-table th {
+    background-color: #333;
+  }
+  

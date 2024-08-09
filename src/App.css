@@ -1,0 +1,243 @@
+/* Estilos globales */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #282c34; /* Asegúrate de que el fondo sea del mismo color */
+  font-family: Arial, sans-serif;
+}
+
+/* Estilos para la aplicación */
+.App {
+  text-align: center;
+  height: 100vh; /* Ocupa el 100% de la altura de la ventana */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.App-header {
+  background-color: #282c34; /* Asegúrate de que el fondo sea del mismo color */
+  min-height: 100vh; /* Ocupa el 100% de la altura de la ventana */
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  padding: 20px;
+}
+
+.App-title {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.App-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+}
+
+.App-label {
+  font-size: 1rem;
+}
+
+.App-input {
+  padding: 10px;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  width: 200px;
+  max-width: 100%;
+  text-align: left;
+  -moz-appearance: textfield; /* Para Firefox */
+  -webkit-appearance: none;   /* Para WebKit */
+}
+
+.App-input::-webkit-inner-spin-button,
+.App-input::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.App-button {
+  padding: 10px 20px;
+  font-size: 1rem;
+  color: #fff;
+  background-color: #007bff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.App-button:hover {
+  background-color: #0056b3;
+}
+
+
+.App {
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  padding: 20px;
+}
+
+.App-title {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.App-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+}
+
+.App-label {
+  font-size: 1rem;
+}
+
+.App-input {
+  padding: 10px;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  width: 200px;
+  max-width: 100%;
+  text-align: left;
+  color: white;
+  background-color: #333;
+  box-sizing: border-box;
+}
+
+.App-button {
+  padding: 10px 20px;
+  font-size: 1rem;
+  color: #fff;
+  background-color: #007bff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin: 5px;
+}
+
+.App-button:hover {
+  background-color: #0056b3;
+}
+
+
+
+.App-button-edit:hover {
+  background-color: #1269da;
+}
+
+
+.App-button-red:hover {
+  background-color: #c82333;
+}
+.Registrar {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Asegura que el contenedor ocupe toda la altura de la ventana */
+  text-align: center;
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  background-color: #282c34; /* Fondo oscuro para el formulario */
+  color: white; /* Texto blanco */
+}
+
+.Registrar-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+}
+
+.Registrar-label {
+  font-size: 1rem;
+  color: white; /* Etiquetas en blanco */
+}
+
+.Registrar-input {
+  padding: 10px;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  width: 200px;
+  max-width: 100%;
+  text-align: left;
+  color: white; /* Texto en los campos de entrada en blanco */
+  background-color: #333; /* Fondo oscuro para los campos de entrada */
+  box-sizing: border-box;
+}
+
+.Registrar-checkboxes {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
+}
+
+.Registrar-button {
+  padding: 10px 20px;
+  font-size: 1rem;
+  color: #fff;
+  background-color: #007bff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.Registrar-button:hover {
+  background-color: #0056b3;
+}
+
+.Registrar-checkboxes label {
+  display: flex;
+  align-items: center;
+  gap: 10px; /* Espacio entre el checkbox y el texto */
+}
+
+.Registrar-checkboxes label:not(:last-child) {
+  margin-bottom: 10px; /* Espacio entre cada checkbox */
+}
+
+.App-checkboxes {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
+}
+
+.App-checkboxes label {
+  display: flex;
+  align-items: center;
+  gap: 10px; /* Espacio entre el checkbox y el texto */
+}
+
+.App-checkboxes label:not(:last-child) {
+  margin-bottom: 10px; /* Espacio entre cada checkbox */
+}
